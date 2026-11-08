@@ -9,3 +9,4 @@ reports/
 *.mdb
 *.bak
 *.vri-backup-*
+!vri_editor/data/template.mdb

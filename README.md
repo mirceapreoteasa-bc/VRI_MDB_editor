@@ -153,13 +153,7 @@ to below 20%, the warning remains enabled.
 
 ## Files not included in this repository
 
-- `vri_editor/data/template.mdb` (the blank map used by New map) is not published, because the copy
-  on the development machine holds interpreter and project names. Create a blank map with
-  File > New, or supply your own template at that path.
-- `data/si_table_v154.csv.gz` (site-index table generated from the Ministry DLL with SiteToolsCmd)
-  is not published, pending a check of redistribution terms. Without it, site-index estimates that
-  use the table are unavailable.
-- `reports/` (validation output for real maps) is not published.
+- `reports/` (validation output for real maps).
 
 ## Licence
 
