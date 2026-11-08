@@ -1,0 +1,6 @@
+include README.md
+include pyproject.toml
+recursive-include vri_validator/data *.xml *.json *.png *.svg *.jar
+recursive-include tests *.py
+recursive-include scripts *.py *.sh
+recursive-include java *.java

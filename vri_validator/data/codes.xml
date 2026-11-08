@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<codeList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="codes.xsd">
+<table name="VRIMS_SERVICE_STATE_CODE">
+	<code key="ERR" desc="Halted on Error"/>
+	<code key="PRO" desc="Processing"/>
+	<code key="IDLE" desc="Idle"/>
+</table>
+<table name="TSA">
+	<code key="1 Arrow" desc="Arrow"/>
+	<code key="2 Boundary" desc="Boundary"/>
+	<code key="3 Bulkley" desc="Bulkley"/>
+	<code key="4 Cassiar" desc="Cassiar"/>
+	<code key="5 Cranbrook" desc="Cranbrook"/>
+	<code key="7 Golden" desc="Golden"/>
+	<code key="8 Fort Nelson" desc="Fort Nelson"/>
+	<code key="9 Invermere" desc="Invermere"/>
+	<code key="10 Kalum" desc="Kalum"/>
+	<code key="11 Kamloops" desc="Kamloops"/>
+	<code key="12 Kispiox" desc="Kispiox"/>
+	<code key="13 Kootenay Lake" desc="Kootenay Lake"/>
+	<code key="14 Lakes" desc="Lakes"/>
+	<code key="15 Lillooet" desc="Lillooet"/>
+	<code key="16 MacKenzie" desc="MacKenzie"/>
+	<code key="17 Robson Valley" desc="Robson Valley"/>
+	<code key="18 Merritt" desc="Merritt"/>
+	<code key="19 Mid Coast" desc="Mid Coast"/>
+	<code key="20 Morice" desc="Morice"/>
+	<code key="21 North Coast" desc="North Coast"/>
+	<code key="22 Okanagan" desc="Okanagan"/>
+	<code key="23 100 Mile House" desc="100 Mile House"/>
+	<code key="24 Prince George" desc="Prince George"/>
+	<code key="25 Queen Charlotte" desc="Queen Charlotte"/>
+	<code key="26 Quesnel" desc="Quesnel"/>
+	<code key="27 Revelstoke" desc="Revelstoke"/>
+	<code key="29 Williams Lake" desc="Williams Lake"/>
+	<code key="30 Fraser" desc="Fraser"/>
+	<code key="31 Soo" desc="Soo"/>
+	<code key="33 Kingcome" desc="Kingcome"/>
+	<code key="37 Strathcona" desc="Strathcona"/>
+	<code key="38 Arrowsmith" desc="Arrowsmith"/>
+	<code key="39 Sunshine Coast" desc="Sunshine Coast"/>
+	<code key="40 Fort St. John" desc="Fort St. John"/>
+	<code key="41 Dawson Creek" desc="Dawson Creek"/>	
+	<code key="43 Nass" desc="Nass"/>
+	<code key="44 Pacific" desc="Pacific"/>
+	<code key="45 Cascadia" desc="Cascadia"/>
+</table>
+<table name="DATA_SOURCE_AGE_CODE">
+	<code key="3" desc="Phase 1 photo sample (pre-1990)"/>
+	<code key="7" desc="Silviculture Survey"/>
+	<code key="18" desc="Vegetation air call"/>
+	<code key="2" desc="Aircall, Low Level Observation"/>
+	<code key="20" desc="Volume and depletion sample"/>
+	<code key="0" desc="Photo-interpretation"/>
+	<code key="17" desc="Vegetation ground call"/>
+	<code key="14" desc="Ground call, 2 or more points"/>
+	<code key="1" desc="Aircall, High Level Observation"/>
+	<code key="6" desc="Phase 2 or Phase 3 sample (pre-1990)"/>
+	<code key="10" desc="Valuation cruise plot(s)"/>
+	<code key="5" desc="Standard fixed radius sample (pre-1979)"/>
+	<code key="16" desc="Vegetation sample"/>
+	<code key="13" desc="Managed stand sample"/>
+	<code key="22" desc="Photogrammetrically captured information"/>
+	<code key="9" desc="Research plots (e.g. Sx trials, ecological site description)"/>
+	<code key="11" desc="(RESULTS) record from a silv. information system that summarizes the stand structure following an activity or treatment."/>
+	<code key="4" desc="Inventory Ground Call"/>
+	<code key="19" desc="Natural growth sample"/>
+	<code key="8" desc="Ground Observation"/>
+	<code key="12" desc="Disturbance which is classified as NSR. No additional information other than type and year of distrubance."/>
+	<code key="25" desc="Pandemic/Catastrophic Event Adjustment (i.e. MPB, Spruce Budworm, etc.)"/>
+	<code key="26" desc="Fire Adjustment"/>
+	<code key="27" desc="Other Model Adjustments (i.e Basal Area)"/>
+	<code key="30" desc="LiDAR Model (i.e. derived) Values are calculated from the LiDar/ground model"/>
+	<code key="31" desc="LiDAR Canopy (calculated) Values are directly measured from LiDAR canopy data"/>
+	<code key="40" desc="LVI derived, values are calculated from the LVI models"/>
+	<code key="41" desc="LVI measured, values are from photo interpretation and/or measured directly from photo"/>
+	<code key="50" desc="Medium Resolution interpreted satalite imagery (greater than 10 m resolution)"/>
+	<code key="51" desc="High Resolution interpreted satelite imagery (less than 1o m Resolution)"/>
+	<code key="60" desc="Low Level, high res digital imagery interpreted(ie Digital Camera System, DCS) values from High res photo interpretation"/>
+	<code key="61" desc="Low Level, high res digital imagery measured(ie Digital Camera System, DCS) meas. directly from high res photography"/>
+</table>
+<table name="NON_VEG_COVER_TYPE_CODE">
+	<code key="RI" desc="River/Stream"/>
+	<code key="LA" desc="Lake"/>
+	<code key="AP" desc="Airport"/>
+	<code key="RN" desc="Railway"/>
+	<code key="RZ" desc="Road Surface"/>
+	<code key="RS" desc="River Sediments"/>
+	<code key="TA" desc="Talus"/>
+	<code key="UR" desc="Urban"/>
+	<code key="MN" desc="Moraine"/>
+	<code key="MI" desc="Open Pit Mine"/>
+	<code key="BE" desc="Beach"/>
+	<code key="MZ" desc="Rubbly Mine Spoils"/>
+	<code key="GL" desc="Glacier"/>
+	<code key="ES" desc="Exposed Soil"/>
+	<code key="OT" desc="Other"/>
+	<code key="LL" desc="Landing"/>
+	<code key="OC" desc="Ocean"/>
+	<code key="RM" desc="Reservoir Margin"/>
+	<code key="RE" desc="Reservoir"/>
+	<code key="PN" desc="Snow Cover"/>
+	<code key="BR" desc="Bedrock"/>
+	<code key="CB" desc="Cutbank"/>
+	<code key="LS" desc="Pond or Lake Sediments"/>
+	<code key="LB" desc="Lava Bed"/>
+	<code key="BI" desc="Blockfield"/>
+	<code key="MU" desc="Mudflat Sediment"/>
+	<code key="TZ" desc="Tailings"/>
+	<code key="GP" desc="Gravel Pit"/>
+	<code key="BU" desc="Burned Area"/>
+	<code key="DW" desc="Down Dead Wood"/>
+	<code key="CL" desc="Cultivated Land"/>
+</table>
+<table name="BCLCS_LEVEL4_CODE">
+	<code key="BM" desc="Bryoid - Moss"/>
+	<code key="HF" desc="Herb - Forbs"/>
+	<code key="BY" desc="Bryoids"/>
+	<code key="EL" desc="Exposed Land"/>
+	<code key="HG" desc="Herb - Graminoids"/>
+	<code key="ST" desc="Shrub - Tall"/>
+	<code key="TM" desc="Treed - Mixed"/>
+	<code key="SL" desc="Shrub - Low"/>
+	<code key="TB" desc="Treed - Broadleaf"/>
+	<code key="RO" desc="Rock/Rubble"/>
+	<code key="SI" desc="Snow/Ice"/>
+	<code key="BL" desc="Bryoid - Lichens"/>
+	<code key="HE" desc="Herb"/>
+	<code key="TC" desc="Treed - Coniferous"/>
+</table>
+<table name="VRIMS_AUDIT_STATE_CODE">
+	<code key="MAN" desc="Manually Accepted"/>
+	<code key="NAU" desc="Not Audited"/>
+	<code key="DEF" desc="Deferred"/>
+	<code key="AUT" desc="Automatically Accepted"/>
+	<code key="REJ" desc="Rejected"/>
+</table>
+<table name="DATA_SOURCE_ECOSYS_CLASS_CODE">
+	<code key="3" desc="Phase 1 photo sample (pre-1990)"/>
+	<code key="7" desc="Silviculture Survey"/>
+	<code key="18" desc="Vegetation air call"/>
+	<code key="2" desc="Aircall, Low Level Observation"/>
+	<code key="20" desc="Volume and depletion sample"/>
+	<code key="0" desc="Photo-interpretation"/>
+	<code key="17" desc="Vegetation ground call"/>
+	<code key="14" desc="Ground call, 2 or more points"/>
+	<code key="1" desc="Aircall, High Level Observation"/>
+	<code key="6" desc="Phase 2 or Phase 3 sample (pre-1990)"/>
+	<code key="10" desc="Valuation cruise plot(s)"/>
+	<code key="5" desc="Standard fixed radius sample (pre-1979)"/>
+	<code key="16" desc="Vegetation sample"/>
+	<code key="13" desc="Managed stand sample"/>
+	<code key="22" desc="Photogrammetrically captured information"/>
+	<code key="9" desc="Research plots (e.g. Sx trials, ecological site description)"/>
+	<code key="11" desc="(RESULTS) record from a silv. information system that summarizes the stand structure following an activity or treatment."/>
+	<code key="4" desc="Inventory Ground Call"/>
+	<code key="19" desc="Natural growth sample"/>
+	<code key="8" desc="Ground Observation"/>
+	<code key="12" desc="Disturbance which is classified as NSR. No additional information other than type and year of distrubance."/>
+	<code key="25" desc="Pandemic/Catastrophic Event Adjustment (i.e. MPB, Spruce Budworm, etc.)"/>
+	<code key="26" desc="Fire Adjustment"/>
+	<code key="27" desc="Other Model Adjustments (i.e Basal Area)"/>
+	<code key="30" desc="LiDAR Model (i.e. derived) Values are calculated from the LiDar/ground model"/>
+	<code key="31" desc="LiDAR Canopy (calculated) Values are directly measured from LiDAR canopy data"/>
+	<code key="40" desc="LVI derived, values are calculated from the LVI models"/>
+	<code key="41" desc="LVI measured, values are from photo interpretation and/or measured directly from photo"/>
+	<code key="50" desc="Medium Resolution interpreted satalite imagery (greater than 10 m resolution)"/>
+	<code key="51" desc="High Resolution interpreted satelite imagery (less than 1o m Resolution)"/>
+	<code key="60" desc="Low Level, high res digital imagery interpreted(ie Digital Camera System, DCS) values from High res photo interpretation"/>
+	<code key="61" desc="Low Level, high res digital imagery measured(ie Digital Camera System, DCS) meas. directly from high res photography"/>
+</table>
+<table name="LAYER_LEVEL_CODE">
+	<code key="S" desc="Silviculture Layer"/>
+	<code key="3" desc="Third Tallest Layer"/>
+	<code key="5" desc="Fifth Tallest Layer"/>
+	<code key="7" desc="Seventh Tallest Layer"/>
+	<code key="2" desc="Second Tallest Layer"/>
+	<code key="9" desc="Ninth Tallest Layer"/>
+	<code key="4" desc="Fourth Tallest Layer"/>
+	<code key="8" desc="Eighth Tallest Layer"/>
+	<code key="6" desc="Sixth Tallest Layer"/>
+	<code key="1" desc="Tallest Layer"/>
+	<code key="D" desc="Dead Layer"/>
+</table>
+<table name="DISTURBANCE_TYPE_CODE">
+	<code key="CNP" desc="Pine Cone Beetle (Conophthorus ponderosae)"/>
+	<code key="IAL" desc="Larch (Lw ) Cone Woolly Aphid (Adelges lariciatus)"/>
+	<code key="V" desc="Problem Vegetation"/>
+	<code key="IDL" desc="Western Hemlock Looper (Lambdina fiscellaria lugubrosa)"/>
+	<code key="IDI" desc="pine needle sheath miner (Zellaria haimbachi)"/>
+	<code key="U" desc="Damage Unknown"/>
+	<code key="DFT" desc="Sirococcus Tip Blight (sirococcus strobilinus)"/>
+	<code key="DLV" desc="aspen-poplar twig blight (Venturia spp.)"/>
+	<code key="DLD" desc="dermea canker (Dermea pseudotsugae)"/>
+	<code key="ISW" desc="Poplar and Willow Borer (Cryptorhynchus lapathi)"/>
+	<code key="CEX" desc="Earomyia Maggots (Earomyia spp.)"/>
+	<code key="R" desc="Site rehabilitation"/>
+	<code key="NG" desc="Frost"/>
+	<code key="DLS" desc="sydowia (Sclerophoma) tip dieback (Sclerophoma pithyophila)"/>
+	<code key="DFR" desc="Douglas-fir needle cast (Rhabdocline pseudotsugae)"/>
+	<code key="DSP" desc="cryptosphaeria canker (Cryptosphaeria populina)"/>
+	<code key="PPX" desc="(Penicillium spp.)"/>
+	<code key="BW" desc="Wildlife Burn"/>
+	<code key="CLO" desc="Western Conifer Seed Bug (Leptoglossus occidentalis)"/>
+	<code key="IBS" desc="Spruce Beetle (Dendroctonus rufipennis)"/>
+	<code key="VP" desc="Vegetation Press"/>
+	<code key="DSC" desc="Comandra Blister Rust (Cronartium comandrae)"/>
+	<code key="DMH" desc="Hemlock Dwarf Mistletoe (Arceuthobium tsugense)"/>
+	<code key="IB" desc="Bark Beetles"/>
+	<code key="CHX" desc="Budworms (Choristoneura spp.)"/>
+	<code key="DRB" desc="Black Stain Root Disease (Leptographium wageneri)"/>
+	<code key="ISA" desc="Bronze Birch Borer (Agrilus anxius)"/>
+	<code key="DDO" desc="cedar brown pocket rot (Poria sericeomollis)"/>
+	<code key="DL" desc="Disease Caused Dieback"/>
+	<code key="DRA" desc="Armillaria Root Disease (Armillaria ostoyae)"/>
+	<code key="IDT" desc="Douglas-fir Tussock Moth (Orgyia pseudotsugata)"/>
+	<code key="DSB" desc="White Pine Blister Rust (Cronartium ribicola)"/>
+	<code key="IBR" desc="Fir Root Beetle (Pseudohylesinus granulatus)"/>
+	<code key="IDK" desc="Northern Tent Caterpillar (Malacosoma californicum)"/>
+	<code key="IDM" desc="Gypsy Moth (Lymantria dispar)"/>
+	<code key="DFP" desc="fir fireweed rust (Pucciniastrum epilobi)"/>
+	<code key="DFB" desc="Delphinella Needle Cast (Delphinella sp.)"/>
+	<code key="DDQ" desc="quinine conk rot (Fomitopsis officinalis)"/>
+	<code key="PDT" desc="Cedar Leaf Blight (Didymascella thujina)"/>
+	<code key="TPM" desc="Poor Planting Microsite"/>
+	<code key="IBP" desc="twig beetles (Pityogenes, Pityophthorus spp)"/>
+	<code key="ISB" desc="Western Cedar Borer (Trachykele blondeli)"/>
+	<code key="ID9" desc="Birch Leaf Skeletonizer (Buccalatrix sp.)"/>
+	<code key="IDN" desc="birch leaf miner (Fenusa pusilla)"/>
+	<code key="DST" desc="target canker (Nectria galligena)"/>
+	<code key="IDJ" desc="Gray forest loooper (Caripeta divista)"/>
+	<code key="IBH" desc="Hylurgops Beetle (Hylurgops rugipennis)"/>
+	<code key="PBC" desc="Gray Mould (Botrytris cinerea)"/>
+	<code key="DDS" desc="Schweinitzii Butt Rot (Phaeolus schweinitzii)"/>
+	<code key="CYT" desc="Cedar (Cw ) Cone Midge (Mayetiola thujae)"/>
+	<code key="P" desc="Cone and Seedling Fungal Pathogens"/>
+	<code key="CVR" desc="Lodgepole pine (Pl ) Cone Borer (Eucosma recissoriana)"/>
+	<code key="NK" desc="Fumekill"/>
+	<code key="VH" desc="Herbaceous Competition"/>
+	<code key="PAX" desc="(Alternaria spp.)"/>
+	<code key="NN" desc="Road Salt"/>
+	<code key="AD" desc="Deer"/>
+	<code key="IDO" desc="Filament bearer (Nematocampa fiamentaria)"/>
+	<code key="IWW" desc="Warrens Root Collar Weevil (Hylobius warreni)"/>
+	<code key="DFA" desc="western pine aster rust (Coleosporium asterum)"/>
+	<code key="DMF" desc="Douglas-fir Dwarf Mistletoe (Arceuthobium douglasii)"/>
+	<code key="IWC" desc="Conifer Seedling Weevil (Steremnius carinatus)"/>
+	<code key="ID8" desc="Aspen Leaf Roller"/>
+	<code key="NB" desc="Fire"/>
+	<code key="IDU" desc="satin moth (Leucoma salicis)"/>
+	<code key="NL" desc="lightning"/>
+	<code key="IEI" desc="Saddleback Looper (Ectropis crepuscularia)"/>
+	<code key="NGC" desc="frost crack"/>
+	<code key="IDV" desc="Variegated Cutworm (Peridroma saucia)"/>
+	<code key="AE" desc="Elk"/>
+	<code key="IBD" desc="Douglas-fir Beetle (Dendroctonus pseudotsugae)"/>
+	<code key="CBX" desc="Fir Cone Moth (Barbara sp.)"/>
+	<code key="NWS" desc="windthrow - soil failure"/>
+	<code key="DML" desc="Larch Dwarf Mistletoe (Arceuthobium laricis)"/>
+	<code key="M" desc="Mite Damage (Trisetacus spp.)"/>
+	<code key="DSA" desc="Atropellis Canker (Lodgepole Pine) (Atropellis piniphila)"/>
+	<code key="IDP" desc="larch sawfly (Pristophora erichsoni)"/>
+	<code key="IBI" desc="Engraver Beetles (Ips species)"/>
+	<code key="T" desc="Treatment Injuries"/>
+	<code key="IDS" desc="Conifer Sawflies"/>
+	<code key="PCP" desc="Inland Spruce Cone Rust (Chrysomyxa pirolata)"/>
+	<code key="ID" desc="Defoliators"/>
+	<code key="AH" desc="Hare or Rabbit"/>
+	<code key="IDR" desc="alder sawfly (Eriocampa ovata)"/>
+	<code key="NH" desc="Hail"/>
+	<code key="DSR" desc="ceratocystis canker (Ceratocystis fimbriata)"/>
+	<code key="IDQ" desc="Hemlock Needle Miner (Epinotia tsugana)"/>
+	<code key="IEF" desc="Cottonwood Leaf Skeletonizer (Phyllonorycytes apparella)"/>
+	<code key="DSS" desc="Stalactiform Blister Rust (Cronartium coleosporioides)"/>
+	<code key="CMC" desc="Spruce (Sx ) Seed Chalcid (Megastigmus piceae)"/>
+	<code key="IEH" desc="Phantom Hemlock Looper (Nepytia phantasmaria)"/>
+	<code key="AZ" desc="Beaver"/>
+	<code key="N" desc="Non-Biological (Abiotic) Injuries"/>
+	<code key="NF" desc="Flooding"/>
+	<code key="CFP" desc="Fir (Fd ) Cone Beetle (Ernobius punctulatus)"/>
+	<code key="DS" desc="Stem Diseases (Cankers and Rusts)"/>
+	<code key="CDD" desc="Fir Seed Midge (Kaltenbachiola(Dasineura) abiesemia)"/>
+	<code key="TT" desc="Thinning or Spacing wound"/>
+	<code key="ND" desc="Drought"/>
+	<code key="DSH" desc="hypoxylon canker (Hypoxylon mammatum)"/>
+	<code key="IEG" desc="Lodgepole pine sawfly (Neopdiprion sp.)"/>
+	<code key="IED" desc="Larch Looper (Semiothis sexmaculata)"/>
+	<code key="NGK" desc="Shoot/Bud Frost Kill"/>
+	<code key="DR" desc="Root Disease"/>
+	<code key="DM" desc="Dwarf Mistletoe"/>
+	<code key="CTO" desc="Fir (Fd ) Cone Gall Midge (Contarinia oregonensis)"/>
+	<code key="CYC" desc="Spruce (Sx ) Seed Midge (Mayetiola carpophaga)"/>
+	<code key="CVP" desc="White pine (Pw ) Cone Borer (Eucosma ponderosa)"/>
+	<code key="AP" desc="Porcupine"/>
+	<code key="IDB" desc="Two-Year Budworm (Choristoneura biennis)"/>
+	<code key="AS" desc="Squirrel"/>
+	<code key="DRT" desc="Tomentosus Root Rot (Inonotus tomentosus)"/>
+	<code key="DFI" desc="Linospora Leaf Blotch (Linospora tetraspora)"/>
+	<code key="DD" desc="Stem Rot"/>
+	<code key="DDG" desc="Sterile Conk Trunk Rot of Birch (Inonotus obliquus)"/>
+	<code key="IBF" desc="Fir Engraver Beetle (Scolytus ventralis)"/>
+	<code key="IEC" desc="Larch Budmoth (Zairaphera improbana)"/>
+	<code key="CIV" desc="Ponderosa pine (Py ) Coneworm (Dioryctria auranticella)"/>
+	<code key="TR" desc="Pruning wound"/>
+	<code key="ID5" desc="Fall Webworm (Hyphantria cunea)"/>
+	<code key="IDA" desc="Black Army Cutworm (Actebia fennica)"/>
+	<code key="DFG" desc="Cottonwood Leaf Rust (Melampsora occidentalis)"/>
+	<code key="D" desc="Diseases"/>
+	<code key="IEB" desc="Hemlock Sawfly (Neodiprion tsugae)"/>
+	<code key="DDE" desc="Rust Red Stringy Rot (Echindontium tinctorium)"/>
+	<code key="ID3" desc="Winter Moth (Operophtera brumata)"/>
+	<code key="DB" desc="broom rust"/>
+	<code key="DFH" desc="larch needle cast (Hypodermella laricis )"/>
+	<code key="DDF" desc="brown crumbly rot (Fomitopsis pinicola)"/>
+	<code key="IDC" desc="Larch Casebearer (Coleophora laricella)"/>
+	<code key="CPS" desc="(Pineus similis)"/>
+	<code key="ID1" desc="Leaf Beetles (Chrysomela spp)"/>
+	<code key="TM" desc="other mechanical damage (non-logging)"/>
+	<code key="CTW" desc="Fir (Fd ) Cone Scale Midge (Contarinia washingtonensis)"/>
+	<code key="CAH" desc="Cone Resin Midge (Asynapta hopkinsi)"/>
+	<code key="CIP" desc="Fir (Fd ) Coneworm (Dioryctria pseudotsugella)"/>
+	<code key="IBB" desc="Western Balsam Bark Beetle (Dryocoetes confusus)"/>
+	<code key="IDD" desc="western winter moth (Erranis tiliaria vancouverensis)"/>
+	<code key="ID2" desc="Bruce Spanworm (Operophtera bruceata)"/>
+	<code key="DBF" desc="fir broom rust (Melampsorella caryophyllacearum)"/>
+	<code key="IDG" desc="Greenstriped Forest Looper (Melanolophia imitata)"/>
+	<code key="CCP" desc="(Camptomyia pseudotsugae)"/>
+	<code key="DRR" desc="Rhizina Root Disease (Rhizina undulata)"/>
+	<code key="DFK" desc="Septoria Leaf Spot (Septoria populicola)"/>
+	<code key="IBW" desc="western pine beetle (Dendroctonus brevicomis)"/>
+	<code key="ID4" desc="Cottonwood Sawfly (Nematus currani)"/>
+	<code key="NGH" desc="Frost Heaved"/>
+	<code key="DFL" desc="Pine needle cast (Lophodermella concolor)"/>
+	<code key="IBE" desc="Silver Fir Beetle (Pseudohylesinus grandis)"/>
+	<code key="AM" desc="Moose"/>
+	<code key="TP" desc="Planting (incorrectly planted)"/>
+	<code key="NWT" desc="windthrow - treatment or harvest related"/>
+	<code key="AV" desc="Vole"/>
+	<code key="CMX" desc="Seed Chalcids (Megastigmus spp.)"/>
+	<code key="CML" desc="Subalpine fir (Bl ) Seed Chalcid (Megastigmus lasiocarpae)"/>
+	<code key="DFE" desc="elytroderma needle cast (Elytroderma deformans)"/>
+	<code key="ID7" desc="Woolly Alder Sawfly (Eriocampa ovata)"/>
+	<code key="DBS" desc="spruce broom rust (Chrysomyxa arctostaphyli)"/>
+	<code key="CYX" desc="Seedworms (Cydia spp.)"/>
+	<code key="BE" desc="Escape Burn"/>
+	<code key="ID6" desc="Aspen Leaf Miner (Phyllocristis populiella)"/>
+	<code key="IWZ" desc="Yosemite bark weevil (Pissodes schwartzii)"/>
+	<code key="DFF" desc="Marssonina Leaf Blights (Marssonina sp.)"/>
+	<code key="A" desc="Animal Damage"/>
+	<code key="CDC" desc="Spruce (Sx ) Cone Gall Midge (Kaltenbachiola(Dasineura) canadensis)"/>
+	<code key="IAS" desc="Green Spruce Aphid (Elatobium abietinum)"/>
+	<code key="IDW" desc="Western Spruce Budworm (Choristoneura occidentalis)"/>
+	<code key="VT" desc="Tree Competition"/>
+	<code key="AX" desc="Birds"/>
+	<code key="DDD" desc="sulfur fungus (Laetiporus sulphureus)"/>
+	<code key="BG" desc="Ground Fire"/>
+	<code key="IDH" desc="Western Blackheaded Budworm (Acleris gloverana)"/>
+	<code key="DFD" desc="spruce needle cast (Lirula macrospora)"/>
+	<code key="C" desc="Cone and Seed Insects"/>
+	<code key="BR" desc="Range Burn"/>
+	<code key="CEQ" desc="(Earomyia aquilonia)"/>
+	<code key="DSY" desc="cytospora canker (Cytospora chrysosperma)"/>
+	<code key="IW" desc="Weevils"/>
+	<code key="IWY" desc="Cylindrocopturus weevil (Cylindrocopturus spp.)"/>
+	<code key="IEA" desc="Unidentified Aspen Defoliation"/>
+	<code key="L" desc="Logging"/>
+	<code key="DMP" desc="Lodgepole Pine Dwarf Mistletoe (Arceuthobium americanum)"/>
+	<code key="CMR" desc="(Megastigmus rafni)"/>
+	<code key="DRC" desc="Laminated Root Rot (cedar strain) (Phellinus weirii)"/>
+	<code key="IDF" desc="Forest Tent Caterpillar (Malacosoma disstria)"/>
+	<code key="IEJ" desc="Willow leafminer (Micrurapteryx salicifoliella)"/>
+	<code key="IDE" desc="Spruce Budworm (Choristoneura fumiferana)"/>
+	<code key="DFC" desc="large-spored spruce-labrador tea rust (Chrysomyxa ledicola)"/>
+	<code key="IDX" desc="large aspen tortrix (Choristoneura conflictana)"/>
+	<code key="IA" desc="Aphids"/>
+	<code key="AC" desc="Cattle"/>
+	<code key="DDH" desc="hardwood trunk rot (Phellinus ignarius)"/>
+	<code key="DFM" desc="larch needle blight (Meria laricis)"/>
+	<code key="CYS" desc="Spruce (Sx ) Seedworm (Cydia strobilella)"/>
+	<code key="IBL" desc="Lodgepole Pine Beetle (Dendroctonus murryanae)"/>
+	<code key="DRL" desc="Laminated Root Rot (Inonotus sulphurascens)"/>
+	<code key="AB" desc="Bear"/>
+	<code key="DLP" desc="phomopsis canker (Phomopsis lokoyae)"/>
+	<code key="IDZ" desc="Western False Hemlock Looper (Nepytia freemani)"/>
+	<code key="CMS" desc="Fir (Fd ) Seed Chalcid (Megastigmus spermotrophus)"/>
+	<code key="ISG" desc="gouty pitch midge (Cecidomyia piniinopsis)"/>
+	<code key="IBM" desc="Mountain Pine Beetle (Dendroctonus ponderosae)"/>
+	<code key="DSE" desc="sooty bark canker (Encoelia pruinosa)"/>
+	<code key="VS" desc="Shrub Competition"/>
+	<code key="I" desc="Insects"/>
+	<code key="PTX" desc="(Trichothecium spp.)"/>
+	<code key="PSS" desc="Sirococcus Blight (Sirococcus strobilinus)"/>
+	<code key="CIA" desc="Fir Coneworm (Dioryctria abietivorella)"/>
+	<code key="ISQ" desc="sequoia pitch moth (Vespamima sequoiae)"/>
+	<code key="DSG" desc="Western Gall Rust (Endocronartium harknessii)"/>
+	<code key="TC" desc="Chemical injury"/>
+	<code key="CMP" desc="Fir Seed Chalcid (Megastigmus pinus)"/>
+	<code key="CRX" desc="Cone Scale Midges (Resseliella spp.)"/>
+	<code key="TL" desc="Logging wounds"/>
+	<code key="CEA" desc="Fir Cone Maggot (Earomyia abietum)"/>
+	<code key="NR" desc="Redbelt"/>
+	<code key="IWP" desc="Lodgepole pine Terminal Weevil (Pissodes terminalis)"/>
+	<code key="CMA" desc="Ponderosa pine (Py ) Seed Chalcid (Megastigmus albifrons)"/>
+	<code key="CBC" desc="Fir (Fd ) Cone Moth (Barbara colfaxiana)"/>
+	<code key="ISC" desc="Poplar Borer (Saperda calcarata)"/>
+	<code key="B" desc="Wildfire"/>
+	<code key="DDP" desc="Red Ring Rot (Phellinus pini)"/>
+	<code key="CMT" desc="Hemlock (Hw) W Seed Chalcid (Megastigmus tsugae)"/>
+	<code key="DRN" desc="Annosus Root Disease (Heterobasidion annosum)"/>
+	<code key="PCF" desc="Seed or Cold Fungus (Caloscypha fulgens)"/>
+	<code key="IWS" desc="White Pine Weevil (on spruce) (Pissodes strobi)"/>
+	<code key="PFX" desc="(Fusarium spp.)"/>
+	<code key="PCD" desc="(Cylindrocarpon destructans)"/>
+	<code key="CIR" desc="Spruce (Sx ) Coneworm (Dioryctria reniculelloides)"/>
+	<code key="NY" desc="Snow or Ice (includes snow press)"/>
+	<code key="CDR" desc="Spruce (Sx ) Cone Axis Midge (Kaltenbachiola(Dasineura) rachiphaga)"/>
+	<code key="ISS" desc="western pine shoot borer (Eucosma sonomana)"/>
+	<code key="DDT" desc="Aspen Trunk Rot (Phellinus tremulae)"/>
+	<code key="DLF" desc="red flag disease (Potebniamyces balsamicola)"/>
+	<code key="IS" desc="Shoot Insects"/>
+	<code key="DDC" desc="Brown Cubical Rot of Birch (Piptoporus betulinus)"/>
+	<code key="IAC" desc="Giant Conifer Aphid (Cinara species)"/>
+	<code key="CSN" desc="Spiral Spruce Cone Borer (Strobilomyia neanthracina)"/>
+	<code key="CIX" desc="Coneworms (Dioryctria spp.)"/>
+	<code key="IAB" desc="Balsam Woolly Adelgid (Adelges piceae)"/>
+	<code key="IBT" desc="red turpentine beetle (Dendroctonus valens)"/>
+	<code key="CYP" desc="Ponderosa pine (Py ) Seedworm (Cydia piperana)"/>
+	<code key="DF" desc="foliage disease"/>
+	<code key="NS" desc="Slide"/>
+	<code key="IAG" desc="Cooley Spruce Gall Adelgid (Adelges cooleyi)"/>
+	<code key="IWM" desc="Magdalis Species"/>
+	<code key="CEB" desc="(Earomyia barbara)"/>
+	<code key="CIS" desc="Pine Coneworm (Dioryctria rossi)"/>
+	<code key="PPG" desc="Damping-Off Disease (Phoma glomerata)"/>
+	<code key="DDB" desc="birch trunk rot (Fomes fomentarius)"/>
+	<code key="CDX" desc="Kaltenbachiola(Dasineura) Midges (Kaltenbachiola(Dasineura) spp.)"/>
+	<code key="NW" desc="Windthrow"/>
+	<code key="DFS" desc="redband needle blight (Mycosphaerella ScirrhiaY pini)"/>
+	<code key="NZ" desc="Sunscald"/>
+	<code key="ISP" desc="Pitch Nodule Moths (Petrova species)"/>
+	<code key="DDA" desc="White Mottled Rot (Ganoderma applanatum)"/>
+	<code key="ISE" desc="European Pine Shoot Moth (Rhyacionia buoliana)"/>
+</table>
+<table name="VRIMS_TRANSACTION_TYPE_CODE">
+	<code key="NNT" desc="Net New Transaction"/>
+	<code key="ADJ" desc="Adjustment"/>
+	<code key="REI" desc="Reinventory"/>
+	<code key="ROT" desc="Read Only Transaction"/>
+	<code key="RES" desc="Results"/>
+</table>
+<table name="VRIMS_ERROR_CONTEXT_CODE">
+	<code key="TRAN" desc="Transaction"/>
+	<code key="SRVC" desc="Service"/>
+	<code key="POLY" desc="Polygon"/>
+</table>
+<table name="PROJECTION_LAYER_CODE">
+	<code key="P" desc="Primary Projection Layer "/>
+	<code key="V" desc="Veteran Projection Layer "/>
+</table>
+<table name="BCLCS_LEVEL5_CODE">
+	<code key="RI" desc="River/Stream"/>
+	<code key="LA" desc="Lake"/>
+	<code key="AP" desc="Airport"/>
+	<code key="RN" desc="Railway Surface"/>
+	<code key="RZ" desc="Road Surface"/>
+	<code key="RS" desc="River Sediments"/>
+	<code key="TA" desc="Talus"/>
+	<code key="UR" desc="Urban"/>
+	<code key="OP" desc="Open"/>
+	<code key="MN" desc="Moraine"/>
+	<code key="MI" desc="Open Pit Mine"/>
+	<code key="BE" desc="Beach"/>
+	<code key="SP" desc="Sparse"/>
+	<code key="MZ" desc="Rubbly Mine Spoils"/>
+	<code key="GL" desc="Glacier"/>
+	<code key="ES" desc="Exposed Soils"/>
+	<code key="OT" desc="Other"/>
+	<code key="LL" desc="Landing"/>
+	<code key="OC" desc="Ocean"/>
+	<code key="DE" desc="Dense"/>
+	<code key="RM" desc="Reservoir Margin"/>
+	<code key="RE" desc="Reservoir"/>
+	<code key="PN" desc="Snow Cover"/>
+	<code key="BR" desc="Bedrock"/>
+	<code key="CB" desc="Cutbank"/>
+	<code key="LS" desc="Pond or Lake Sediments"/>
+	<code key="LB" desc="Lava Bed"/>
+	<code key="BI" desc="Blockfield"/>
+	<code key="CL" desc="Closed"/>
+	<code key="MU" desc="Mudflat Sediment"/>
+	<code key="TZ" desc="Tailings"/>
+	<code key="GP" desc="Gravel Pit"/>
+	<code key="BU" desc="Burned Area"/>
+</table>
+<table name="DATA_SOURCE_BASAL_AREA_CODE">
+	<code key="3" desc="Phase 1 photo sample(pre-1990)"/>
+	<code key="7" desc="Silviculture Survey"/>
+	<code key="18" desc="Vegetation air call"/>
+	<code key="2" desc="Aircall, Low Level Observation"/>
+	<code key="20" desc="Volume and depletion sample"/>
+	<code key="0" desc="Photo Interpretation"/>
+	<code key="17" desc="Vegetation ground call"/>
+	<code key="14" desc="Ground call, 2 or more points"/>
+	<code key="1" desc="Aircall, High Level Observation"/>
+	<code key="6" desc="Phase 2 or Phase 3 sample (pre-1990)"/>
+	<code key="10" desc="Valuation Cruise Plot(s)"/>
+	<code key="5" desc="Standard fixed radius sample(pre-1979)"/>
+	<code key="16" desc="Vegetation sample"/>
+	<code key="13" desc="Managed stand sample"/>
+	<code key="22" desc="Photogrammetrically captured information"/>
+	<code key="9" desc="Research plots(e.g. Sx trials, ecological site description)"/>
+	<code key="11" desc="(RESULTS) record from a silv. information system that summarizes the stand structure following an activity or treatment."/>
+	<code key="4" desc="Inventory Ground Call"/>
+	<code key="19" desc="Natural growth sample"/>
+	<code key="8" desc="Ground Observation"/>
+	<code key="12" desc="Disturbance which is classified as NSR. No additional information other than type and year of distrubance."/>
+	<code key="25" desc="Pandemic/Catastrophic Event Adjustment (i.e. MPB, Spruce Budworm, etc.)"/>
+	<code key="26" desc="Fire Adjustment"/>
+	<code key="27" desc="Other Model Adjustments (i.e Basal Area)"/>
+	<code key="30" desc="LiDAR Model (i.e. derived) Values are calculated from the LiDar/ground model"/>
+	<code key="31" desc="LiDAR Canopy (calculated) Values are directly measured from LiDAR canopy data"/>
+	<code key="40" desc="LVI derived, values are calculated from the LVI models"/>
+	<code key="41" desc="LVI measured, values are from photo interpretation and/or measured directly from photo"/>
+	<code key="50" desc="Medium Resolution interpreted satalite imagery (greater than 10 m resolution)"/>
+	<code key="51" desc="High Resolution interpreted satelite imagery (less than 1o m Resolution)"/>
+	<code key="60" desc="Low Level, high res digital imagery interpreted(ie Digital Camera System, DCS) values from High res photo interpretation"/>
+	<code key="61" desc="Low Level, high res digital imagery measured(ie Digital Camera System, DCS) meas. directly from high res photography"/>
+</table>
+<table name="ESTIMATED_SINDEX_SOURCE_CODE">
+	<code key="S" desc="Site index assigned by District Silviculture Section"/>
+	<code key="I" desc="SI from growth intercept"/>
+	<code key="A" desc="Site index from adjacent stand"/>
+	<code key="H" desc="SI from stand before harvest"/>
+	<code key="C" desc="SI from Site Index Curve"/>
+	<code key="E" desc="SI from Biogeoclimatic Ecosystem Classification"/>
+	<code key="P" desc="Site Index from Site Productivity Layer"/>
+</table>
+<table name="VRIMS_PROCESSING_STATE_CODE">
+	<code key="INBOX" desc="Inbox"/>
+	<code key="MS" desc="Marked for Resubmit"/>
+	<code key="PRE" desc="Prepared"/>
+	<code key="MP" desc="Marked for Purge"/>
+	<code key="REI" desc="Replicated"/>
+	<code key="INT" desc="Integrated"/>
+	<code key="MT" desc="Marked for Retry"/>
+	<code key="CO" desc="Checked Out"/>
+	<code key="RS" desc="Resubmit"/>
+	<code key="FR" desc="Failed Replication"/>
+	<code key="BI" desc="Being Integrated"/>
+	<code key="NEW" desc="New"/>
+	<code key="PROJ" desc="Projected"/>
+	<code key="FI" desc="Failed Integration"/>
+	<code key="PG" desc="Purged"/>
+	<code key="MI" desc="Marked for Integration"/>
+	<code key="FPJ" desc="Failed Projection"/>
+	<code key="REJ" desc="Rejected"/>
+	<code key="BP" desc="Being Prepared"/>
+	<code key="FP" desc="Failed Preparation"/>
+</table>
+<table name="VRIMS_SYSTEM_MODE_CODE">
+	<code key="PROJ" desc="Projection"/>
+	<code key="MAN" desc="Manual"/>
+	<code key="AUTO" desc="Automatic"/>
+	<code key="SB" desc="Standby"/>
+	<code key="REP" desc="Replication"/>
+</table>
+<table name="VRIMS_ERROR_LEVEL_CODE">
+	<code key="ERR" desc="Error"/>
+	<code key="INFO" desc="Information"/>
+	<code key="WARN" desc="Warning"/>
+</table>
+<table name="VRIMS_SERVICE_CODE">
+	<code key="PROJ" desc="Projection Service"/>
+	<code key="VP" desc="Veg Preparation Service"/>
+	<code key="CS" desc="Cleanup Service"/>
+	<code key="INT" desc="Integration Service"/>
+	<code key="REP" desc="Replication Service"/>
+	<code key="RP" desc="Results Preparation Service"/>
+</table>
+<table name="SURFACE_EXPRESSION_CODE">
+	<code key="D" desc="Depression"/>
+	<code key="M" desc="Rolling"/>
+	<code key="R" desc="Ridge(s)"/>
+	<code key="F" desc="Fan"/>
+	<code key="U" desc="Undulating"/>
+	<code key="H" desc="Hummock(s)"/>
+	<code key="C" desc="Cone"/>
+	<code key="T" desc="Terrace(s)"/>
+	<code key="N" desc="None"/>
+	<code key="P" desc="Plain"/>
+</table>
+<table name="LAYER_SUMMARIZATION_CODE">
+	<code key="2" desc="Two Layers"/>
+	<code key="1" desc="Single Layer"/>
+</table>
+<table name="BCLCS_LEVEL1_CODE">
+	<code key="U" desc="Unreported"/>
+	<code key="N" desc="Non-Vegetated"/>
+	<code key="V" desc="Vegetated"/>
+</table>
+<table name="SOIL_NUTRIENT_REGIME_CODE">
+	<code key="D" desc="Rich"/>
+	<code key="A" desc="Very Poor"/>
+	<code key="F" desc="Ultra rich (saline, excess accumulations of variety of salts)"/>
+	<code key="C" desc="Medium"/>
+	<code key="B" desc="Poor"/>
+	<code key="E" desc="Very Rich"/>
+</table>
+<table name="SITE_POSITION_MESO_CODE">
+	<code key="D" desc="Depression"/>
+	<code key="M" desc="Middle Slope"/>
+	<code key="F" desc="Flat (Level)"/>
+	<code key="U" desc="Upper Slope"/>
+	<code key="C" desc="Crest"/>
+	<code key="T" desc="Toe"/>
+	<code key="L" desc="Lower Slope"/>
+</table>
+<table name="BEC_ZONE_CODE">
+	<code key="MS" desc="Montane Spruce"/>
+	<code key="BAFA" desc="Boreal Altai Fescue Alpine"/>
+	<code key="ICH" desc="Interior Cedar - Hemlock"/>
+	<code key="ESSF" desc="Engelmann Spruce - Subalpine Fir"/>
+	<code key="CMA" desc="Coastal Mountain-heather Alpine"/>
+	<code key="SWB" desc="Spruce - Willow - Birch"/>
+	<code key="CWH" desc="Coastal Western Hemlock"/>
+	<code key="IDF" desc="Interior Douglas Fir"/>
+	<code key="SBS" desc="Sub-Boreal Spruce"/>
+	<code key="CDF" desc="Coastal Douglas Fir"/>
+	<code key="IMA" desc="Interior Mountain-heather Alpine"/>
+	<code key="SBPS" desc="Sub-Boreal Pine - Spruce"/>
+	<code key="PP" desc="Ponderosa Pine"/>
+	<code key="MH" desc="Mountain Hemlock"/>
+	<code key="AT" desc="Alpine Tundra"/>
+	<code key="BG" desc="Bunchgrass"/>
+	<code key="BWBS" desc="Boreal White and Black Spruce"/>
+</table>
+<table name="LAND_COVER_CLASS_CODE">
+	<code key="RI" desc="River/Stream "/>
+	<code key="BM" desc="Bryoid - Moss (bryophytes)"/>
+	<code key="AP" desc="Airport"/>
+	<code key="LA" desc="Lake"/>
+	<code key="EL" desc="Exposed Land"/>
+	<code key="RN" desc="Railway"/>
+	<code key="HG" desc="Herb Graminoids"/>
+	<code key="RZ" desc="Road Surface "/>
+	<code key="RS" desc="River Sediments "/>
+	<code key="TA" desc="Talus"/>
+	<code key="UR" desc="Urban"/>
+	<code key="MN" desc="Moraine "/>
+	<code key="MI" desc="Open Pit Mine"/>
+	<code key="BE" desc="Beach "/>
+	<code key="TB" desc="Treed Broadleaf "/>
+	<code key="MZ" desc="Rubbly Mine Spoils"/>
+	<code key="GL" desc="Glacier"/>
+	<code key="RO" desc="Rock/Rubble"/>
+	<code key="ES" desc="Exposed Soil"/>
+	<code key="BL" desc="Bryoid Lichens"/>
+	<code key="OT" desc="Other "/>
+	<code key="LL" desc="Landing"/>
+	<code key="OC" desc="Ocean"/>
+	<code key="TC" desc="Treed Coniferous"/>
+	<code key="RM" desc="Reservoir Margin "/>
+	<code key="HF" desc="Herb Forbs"/>
+	<code key="BY" desc="Bryoid"/>
+	<code key="RE" desc="Reservoir "/>
+	<code key="PN" desc="Snow Cover"/>
+	<code key="BR" desc="Bedrock"/>
+	<code key="CB" desc="Cutbank "/>
+	<code key="LS" desc="Pond or Lake Sediments"/>
+	<code key="BI" desc="Blockfield"/>
+	<code key="LB" desc="Lava Bed"/>
+	<code key="ST" desc="Shrub Tall "/>
+	<code key="TM" desc="Treed Mixed"/>
+	<code key="SL" desc="Shrub Low "/>
+	<code key="MU" desc="Mudflat Sediment"/>
+	<code key="TZ" desc="Tailings"/>
+	<code key="SI" desc="Snow/Ice"/>
+	<code key="GP" desc="Gravel Pit"/>
+	<code key="HE" desc="Herb"/>
+	<code key="BU" desc="Burned Area "/>
+	<code key="DW" desc="Down Dead Wood"/>
+	<code key="CL" desc="Cultivated Land"/>
+	<code key="UC" desc="Oil and Gas Pipeline Corridors, Transmission Line Corridors"/>
+</table>
+<table name="LAND_COVER_LEVEL_CODE">
+	<code key="3" desc="Third specific instance of a land cover component as attached to a polygon record"/>
+	<code key="2" desc="Second specific instance of a land cover component as attached to a polygon record"/>
+	<code key="4" desc="All other specific instances of a land cover component as attached to a polygon record"/>
+	<code key="1" desc="First specific instance of a land cover component as attached to a polygon record"/>
+</table>
+<table name="MODIFYING_PROCESS_CODE">
+	<code key="A" desc="Avalanching"/>
+	<code key="F" desc="Mass Movements"/>
+	<code key="U" desc="Flooding"/>
+	<code key="N" desc="None"/>
+	<code key="B" desc="River Channeling"/>
+	<code key="V" desc="Gully Erosion"/>
+</table>
+<table name="FOREST_COVER_RANK_CODE">
+	<code key="1" desc="Rank 1"/>
+</table>
+<table name="SOIL_MOISTURE_REGIME_CODE">
+	<code key="3" desc="Submesic"/>
+	<code key="5" desc="Subhygric"/>
+	<code key="7" desc="Subhydric"/>
+	<code key="2" desc="Subxeric"/>
+	<code key="0" desc="Very Xeric"/>
+	<code key="4" desc="Mesic"/>
+	<code key="8" desc="Hydric"/>
+	<code key="6" desc="Hygric"/>
+	<code key="1" desc="Xeric"/>
+</table>
+<table name="DATA_CAPTURE_METHOD_CODE">
+	<code key="7" desc="Digitizing"/>
+	<code key="11" desc="Results"/>
+	<code key="4" desc="Photogrammetric"/>
+	<code key="8" desc="Scanning"/>
+	<code key="12" desc="Other"/>
+	<code key="14" desc="Medium Resolution Satelite Imagery (greater than 10 m resolution)"/>
+	<code key="15" desc="Low Resolution Satelite Imagery (less than 10 m resolution)"/>
+	<code key="16" desc="LiDAR Imagery (Light Detection and Ranging)"/>
+	<code key="23" desc="Photogrammetric without ground calibration"/>
+</table>
+<table name="ADJUSTMENT_ATTRIBUTE_CODE">
+	<code key="DS" desc="Disturbance Start Year"/>
+	<code key="PS" desc="Polygon Shrub Cover Percentage"/>
+	<code key="DE" desc="Disturbance End Year"/>
+	<code key="TS" desc="Tree Species"/>
+	<code key="PN" desc="Polygon Non Productive Descriptor"/>
+	<code key="LSS" desc="Layer Estimated Site Index Species"/>
+	<code key="LF" desc="Layer Forest Cover Rank"/>
+	<code key="PY" desc="Polygon Yield Factor"/>
+	<code key="TT" desc="Tree Species Total Ages"/>
+	<code key="DT" desc="Dominant Tree Species Hieght"/>
+	<code key="TP" desc="Tree Species Percentage"/>
+	<code key="LS" desc="Layer Estimated Site Index"/>
+	<code key="LB" desc="Layer Basal Area"/>
+	<code key="PM" desc="Polygon Measurement Year"/>
+	<code key="LT" desc="Layer Trees Per Hectare"/>
+	<code key="PB" desc="Polygon Biogeoclimatic Ecosystem Classification"/>
+	<code key="LC" desc="Layer Crown Closure"/>
+	<code key="PC" desc="Polygon Bryoid Cover Percentage"/>
+	<code key="LM" desc="Layer Measured Utilization Level"/>
+	<code key="PP" desc="Polygon Percentage Stockable Land"/>
+	<code key="PH" desc="Polygon Herb Cover Percentage"/>
+	<code key="LL" desc="Layer Level Code"/>
+</table>
+<table name="NON_PRODUCTIVE_CODE">
+	<code key="01" desc="Icefield"/>
+	<code key="63" desc="Open Range"/>
+	<code key="18" desc="Gravel Bar"/>
+	<code key="00" desc="No Non Productive Description Identified"/>
+	<code key="07" desc="Sand"/>
+	<code key="02" desc="Alpine"/>
+	<code key="42" desc="Clearing"/>
+	<code key="64" desc="Non-Applicable (salt water)"/>
+	<code key="60" desc="Hayfield"/>
+	<code key="25" desc="River"/>
+	<code key="06" desc="Gravel Pit"/>
+	<code key="54" desc="Urban/Roads"/>
+	<code key="03" desc="Rock"/>
+	<code key="10" desc="Alpine Forest(with species etc.)"/>
+	<code key="35" desc="Swamp"/>
+	<code key="16" desc="Tidal Flat"/>
+	<code key="13" desc="Non-Productive Burn"/>
+	<code key="26" desc="Mud Flat"/>
+	<code key="09" desc="Clay Bank"/>
+	<code key="11" desc="Non-Productive Brush"/>
+	<code key="15" desc="Lake"/>
+	<code key="62" desc="Meadow"/>
+	<code key="12" desc="Non-Productive"/>
+</table>
+<table name="COVER_PATTERN_CODE">
+	<code key="3" desc="Several (&gt;3) sporadic occurrences of limited extent, circular to irregular shape."/>
+	<code key="5" desc="Intimately intermixed units, often with gradiational transitions from one to the other."/>
+	<code key="7" desc="Limited continuous occurrence with few inclusions."/>
+	<code key="2" desc="Single to very few (&lt;4) occurrences of limited extent, linear or elongated shape."/>
+	<code key="9" desc="Continuous occurrence with very few inclusions."/>
+	<code key="4" desc="Several (&gt;3) sporadic occurrences of limited extent, linear or elongated shape."/>
+	<code key="8" desc="Continuous occurrence with several inclusions."/>
+	<code key="6" desc="Discontinuous but extensive occurrences, parallel to sub-parallel elongated in shape."/>
+	<code key="1" desc="Single to very few (&lt;4) occurrences of limited extent, circular to irregular shape."/>
+</table>
+<table name="DATA_SRC_VRI_LIVE_STEM_HA_CODE">
+	<code key="3" desc="Phase 1 photo sample(pre-1990)"/>
+	<code key="7" desc="Silviculture Survey"/>
+	<code key="18" desc="Vegetation air call"/>
+	<code key="2" desc="Aircall, Low Level Observation"/>
+	<code key="20" desc="Volume and depletion sample"/>
+	<code key="0" desc="Photo Interpretation"/>
+	<code key="17" desc="Vegetation ground call"/>
+	<code key="14" desc="Ground call, 2 or more points"/>
+	<code key="1" desc="Aircall, High Level Observation"/>
+	<code key="6" desc="Phase 2 or Phase 3 sample (pre-1990)"/>
+	<code key="10" desc="Valuation Cruise Plot(s)"/>
+	<code key="5" desc="Standard fixed radius sample(pre-1979)"/>
+	<code key="16" desc="Vegetation sample"/>
+	<code key="13" desc="Managed stand sample"/>
+	<code key="22" desc="Photogrammetrically captured information"/>
+	<code key="9" desc="Research plots(e.g. Sx trials, ecological site description)"/>
+	<code key="11" desc="(RESULTS) record from a silv. information system that summarizes the stand structure following an activity or treatment."/>
+	<code key="4" desc="Inventory Ground Call"/>
+	<code key="19" desc="Natural growth sample"/>
+	<code key="8" desc="Ground Observation"/>
+	<code key="12" desc="Disturbance which is classified as NSR. No additional information other than type and year of distrubance."/>
+	<code key="25" desc="Pandemic/Catastrophic Event Adjustment (i.e. MPB, Spruce Budworm, etc.)"/>
+	<code key="26" desc="Fire Adjustment"/>
+	<code key="27" desc="Other Model Adjustments (i.e Basal Area)"/>
+	<code key="30" desc="LiDAR Model (i.e. derived) Values are calculated from the LiDar/ground model"/>
+	<code key="31" desc="LiDAR Canopy (calculated) Values are directly measured from LiDAR canopy data"/>
+	<code key="40" desc="LVI derived, values are calculated from the LVI models"/>
+	<code key="41" desc="LVI measured, values are from photo interpretation and/or measured directly from photo"/>
+	<code key="50" desc="Medium Resolution interpreted satalite imagery (greater than 10 m resolution)"/>
+	<code key="51" desc="High Resolution interpreted satelite imagery (less than 1o m Resolution)"/>
+	<code key="60" desc="Low Level, high res digital imagery interpreted(ie Digital Camera System, DCS) values from High res photo interpretation"/>
+	<code key="61" desc="Low Level, high res digital imagery measured(ie Digital Camera System, DCS) meas. directly from high res photography"/>
+</table>
+<table name="BCLCS_LEVEL2_CODE">
+	<code key="W" desc="Water"/>
+	<code key="T" desc="Treed"/>
+	<code key="N" desc="Non-Treed"/>
+	<code key="L" desc="Land"/>
+</table>
+<table name="VRIMS_ERROR_TYPE_CODE">
+	<code key="SPA" desc="Spatial"/>
+	<code key="BRV" desc="Business Rule Validation"/>
+	<code key="PRO" desc="Processing Error"/>
+	<code key="DAT" desc="Database"/>
+</table>
+<table name="INVENTORY_STANDARD_CODE">
+	<code key="I" desc="Veg Data Incomplete - Full set of VRI Attributes not collected"/>
+	<code key="V" desc="Veg Data collected to Veg Standards"/>
+	<code key="L" desc="Veg Data Captured using various emerging technologies such as (LVI, LiDAR, etc)"/>
+</table>
+<table name="TREE_SPECIES_CODE">
+	<code key="A" desc="Aspen, Cottonwood or Poplar"/>
+	<code key="AC" desc="Poplar"/>
+	<code key="ACB" desc="Balsam poplar"/>
+	<code key="ACT" desc="Black cottonwood"/>
+	<code key="AT" desc="Trembling aspen"/>
+	<code key="AX" desc="Hybrid poplars"/>
+	<code key="B" desc="Fir (Balsam)"/>
+	<code key="BA" desc="Amabilis fir"/>
+	<code key="BB" desc="Balsam fir"/>
+	<code key="BG" desc="Grand fir"/>
+	<code key="BL" desc="Subalpine fir"/>
+	<code key="C" desc="Cedar"/>
+	<code key="CW" desc="Western redcedar"/>
+	<code key="D" desc="Alder"/>
+	<code key="DG" desc="Green/Sitka alder"/>
+	<code key="DM" desc="Mountain alder"/>
+	<code key="DR" desc="Red alder"/>
+	<code key="E" desc="Birch"/>
+	<code key="EA" desc="Alaska paper birch"/>
+	<code key="EB" desc="Scrub birch"/>
+	<code key="EP" desc="Paper birch"/>
+	<code key="ES" desc="Silver birch"/>
+	<code key="EW" desc="Water birch"/>
+	<code key="EX" desc="Birch hybrid"/>
+	<code key="EXP" desc="Alaska x paper birch hybrid"/>
+	<code key="EXW" desc="Water x paper birch"/>
+	<code key="F" desc="Douglas-fir"/>
+	<code key="FD" desc="Douglas-fir"/>
+	<code key="FDC" desc="Coastal Douglas-fir"/>
+	<code key="FDI" desc="Interior Douglas-fir"/>
+	<code key="G" desc="Dogwood"/>
+	<code key="GP" desc="Pacific dogwood"/>
+	<code key="GR" desc="Red-osier dogwood"/>
+	<code key="H" desc="Hemlock"/>
+	<code key="HM" desc="Mountain hemlock"/>
+	<code key="HW" desc="Western hemlock"/>
+	<code key="HX" desc="Hemlock hybrid"/>
+	<code key="HXM" desc="Mountain x western hemlock hybrid"/>
+	<code key="J" desc="Juniper"/>
+	<code key="JD" desc="Common juniper"/>
+	<code key="JH" desc="Creeping juniper"/>
+	<code key="JR" desc="Rocky Mtn. juniper"/>
+	<code key="K" desc="Cascara"/>
+	<code key="KC" desc="Cascara"/>
+	<code key="L" desc="Larch"/>
+	<code key="LA" desc="Alpine larch"/>
+	<code key="LD" desc="Dahurian larch"/>
+	<code key="LS" desc="Siberian larch"/>
+	<code key="LT" desc="Tamarack"/>
+	<code key="LW" desc="Western larch"/>
+	<code key="M" desc="Maple"/>
+	<code key="MB" desc="Bigleaf maple"/>
+	<code key="MR" desc="Douglas maple"/>
+	<code key="MV" desc="Vine maple"/>
+	<code key="P" desc="Pine"/>
+	<code key="PA" desc="Whitebark pine"/>
+	<code key="PF" desc="Limber pine"/>
+	<code key="PJ" desc="Jack pine"/>
+	<code key="PL" desc="Lodgepole pine"/>
+	<code key="PLC" desc="Shore pine"/>
+	<code key="PLI" desc="Lodgepole pine"/>
+	<code key="PR" desc="Red pine"/>
+	<code key="PW" desc="Western white pine"/>
+	<code key="PX" desc="Pine hybrid"/>
+	<code key="PXJ" desc="Lodgepole x jack pine hybrid"/>
+	<code key="PY" desc="Ponderosa pine"/>
+	<code key="Q" desc="Oak"/>
+	<code key="QG" desc="Garry oak"/>
+	<code key="S" desc="Spruce"/>
+	<code key="SA" desc="Norway spruce (code replaced by Sn)"/>
+	<code key="SB" desc="Black spruce"/>
+	<code key="SE" desc="Engelmann spruce"/>
+	<code key="SS" desc="Sitka spruce"/>
+	<code key="SW" desc="White spruce"/>
+	<code key="SX" desc="Spruce hybrid"/>
+	<code key="SXB" desc="White x black spruce"/>
+	<code key="SXE" desc="Engelmann x sitka spruce"/>
+	<code key="SXL" desc="Sitka x white"/>
+	<code key="SXS" desc="Sitka x unknown hybrid"/>
+	<code key="SXW" desc="Engelmann x white"/>
+	<code key="SXX" desc="White x engelmann x sitka spruce"/>
+	<code key="T" desc="Yew"/>
+	<code key="TW" desc="Western yew"/>
+	<code key="UP" desc="Pacific crab apple"/>
+	<code key="V" desc="Cherry"/>
+	<code key="VB" desc="Bitter cherry"/>
+	<code key="VP" desc="Pin cherry"/>
+	<code key="VW" desc="Choke cherry (code replaced by Vv)"/>
+	<code key="W" desc="Willow"/>
+	<code key="WA" desc="Peachleaf willow"/>
+	<code key="WB" desc="Bebb's willow"/>
+	<code key="WD" desc="Pussy willow"/>
+	<code key="WS" desc="Scouler's willow"/>
+	<code key="WT" desc="Sitka willow"/>
+	<code key="Y" desc="Cypress"/>
+	<code key="YC" desc="Yellow-cedar"/>
+	<code key="RA" desc="Arbutus menziesii"/>
+	<code key="AD" desc="Southern cottonwood"/>
+	<code key="BC" desc="White fir"/>
+	<code key="BM" desc="Shasta red fir"/>
+	<code key="BP" desc="Noble fir"/>
+	<code key="ME" desc="Box elder"/>
+	<code key="MN" desc="Norway maple"/>
+	<code key="MS" desc="Sycamore maple"/>
+	<code key="QE" desc="English oak"/>
+	<code key="QW" desc="White oak"/>
+	<code key="UA" desc="Apple"/>
+	<code key="VS" desc="Sweet cherry"/>
+	<code key="YP" desc="Port Orford-cedar"/>
+	<code key="OA" desc="Incense-cedar"/>
+	<code key="OB" desc="Giant sequoia"/>
+	<code key="OC" desc="Coast redwood"/>
+	<code key="OD" desc="European mountain-ash"/>
+	<code key="OE" desc="Siberian elm"/>
+	<code key="OF" desc="Common pear"/>
+	<code key="OG" desc="Oregon ash"/>
+	<code key="OH" desc="White ash"/>
+	<code key="OI" desc="Shagbark hickory"/>
+	<code key="PM" desc="Monterey pine"/>
+	<code key="PS" desc="Sugar pine"/>
+	<code key="SN" desc="Norway spruce"/>
+	<code key="R" desc="Arbutus"/>
+	<code key="U" desc="Apple"/>
+	<code key="VV" desc="Choke cherry"/>
+	<code key="WP" desc="Pacific willow"/>
+	<code key="X" desc="Unknown"/>
+	<code key="XC" desc="Unknown Conifer"/>
+	<code key="XH" desc="Unknown Hardwood"/>
+</table>
+<table name="VRIMS_SYSTEM_STATE_CODE">
+	<code key="ERR" desc="Halted on Error"/>
+	<code key="RUN" desc="Running"/>
+	<code key="WAIT" desc="Waiting for Operating Window"/>
+	<code key="CM" desc="Changing Mode"/>
+	<code key="ST" desc="Starting Up"/>
+</table>
+<table name="HERB_COVER_TYPE_CODE">
+	<code key="HF" desc="Herb - Forbs"/>
+	<code key="HE" desc="Herb"/>
+	<code key="HG" desc="Herb - Graminoids"/>
+</table>
+<table name="VERTICAL_COMPLEXITY_CODE">
+	<code key="3" desc="Moderately uniform"/>
+	<code key="5" desc="Very non-uniform"/>
+	<code key="2" desc="Uniform"/>
+	<code key="4" desc="Non-uniform"/>
+	<code key="1" desc="Very uniform"/>
+</table>
+<table name="NON_PRODUCTIVE_DESCRIPTOR_CODE">
+	<code key="S" desc="Swamp"/>
+	<code key="NPBU" desc="Non-Productive Burn"/>
+	<code key="R" desc="Rock"/>
+	<code key="GR" desc="Gravel Pit"/>
+	<code key="RIV" desc="River"/>
+	<code key="C" desc="Cultivated"/>
+	<code key="P" desc="Hayfield"/>
+	<code key="NPBR" desc="Non-Productive Brush"/>
+	<code key="L" desc="Lake"/>
+	<code key="G" desc="Gravel Bar"/>
+	<code key="ICE" desc="Icefield"/>
+	<code key="CL" desc="Clay Bank"/>
+	<code key="TIDE" desc="Tidal Flat"/>
+	<code key="AF" desc="Alpine Forest(with species etc.)"/>
+	<code key="M" desc="Meadow"/>
+	<code key="NP" desc="Non-Productive"/>
+	<code key="A" desc="Alpine"/>
+	<code key="MUD" desc="Mud Flat"/>
+	<code key="U" desc="Urban/Roads"/>
+	<code key="NPF" desc="Non-Productive Forest(with species etc.)"/>
+	<code key="NA" desc="Non-Applicable"/>
+	<code key="OR" desc="Open Range"/>
+	<code key="SAND" desc="Sand"/>
+	<code key="NTA" desc="No Typing Available"/>
+</table>
+<table name="ALPINE_DESIGNATION_CODE">
+	<code key="A" desc="Alpine"/>
+	<code key="N" desc="Not Alpine"/>
+</table>
+<table name="DATA_SOURCE_INTERPRETED_CODE">
+	<code key="3" desc="Phase 1 photo sample(pre-1990)"/>
+	<code key="0" desc="Photo Interpretation"/>
+	<code key="14" desc="Ground call, 2 or more points"/>
+	<code key="17" desc="Vegetation ground call"/>
+	<code key="6" desc="Phase 2 or Phase 3 sample (pre-1990)"/>
+	<code key="1" desc="Aircall, High Level Observation"/>
+	<code key="5" desc="Standard fixed radius sample(pre-1979)"/>
+	<code key="72" desc="Conditional Free Growing"/>
+	<code key="16" desc="Vegetation sample"/>
+	<code key="11" desc="(RESULTS) record from a silv. information system that summarizes the stand structure following an activity or treatment."/>
+	<code key="4" desc="Inventory Ground Call"/>
+	<code key="12" desc="Disturbance which is classified as NSR. No additional information other than type and year of disturbance."/>
+	<code key="74" desc="Pre-Stand Tending"/>
+	<code key="7" desc="Silviculture Survey"/>
+	<code key="18" desc="Vegetation air call"/>
+	<code key="2" desc="Aircall, Low Level Observation"/>
+	<code key="20" desc="Volume and depletion sample"/>
+	<code key="75" desc="Naturally Regenerated"/>
+	<code key="71" desc="Free Growing Survey"/>
+	<code key="10" desc="Valuation Cruise Plot(s)"/>
+	<code key="13" desc="Managed stand sample"/>
+	<code key="22" desc="Photogrammetrically captured information"/>
+	<code key="9" desc="Research plots(e.g. Sx trials, ecological site description)"/>
+	<code key="19" desc="Natural growth sample"/>
+	<code key="8" desc="Ground Observation"/>
+	<code key="73" desc="Not Free Growing"/>
+	<code key="25" desc="Pandemic/Catastrophic Event Adjustment (i.e. MPB, Spruce Budworm, etc.)"/>
+	<code key="26" desc="Fire Adjustment"/>
+	<code key="27" desc="Other Model Adjustments (i.e Basal Area)"/>
+	<code key="30" desc="LiDAR Model (i.e. derived) Values are calculated from the LiDar/ground model"/>
+	<code key="31" desc="LiDAR Canopy (calculated) Values are directly measured from LiDAR canopy data"/>
+	<code key="40" desc="LVI derived, values are calculated from the LVI models"/>
+	<code key="41" desc="LVI measured, values are from photo interpretation and/or measured directly from photo"/>
+	<code key="50" desc="Medium Resolution interpreted satalite imagery (greater than 10 m resolution)"/>
+	<code key="51" desc="High Resolution interpreted satelite imagery (less than 1o m Resolution)"/>
+	<code key="60" desc="Low Level, high res digital imagery interpreted(ie Digital Camera System, DCS) values from High res photo interpretation"/>
+	<code key="61" desc="Low Level, high res digital imagery measured(ie Digital Camera System, DCS) meas. directly from high res photography"/>
+</table>
+<table name="BCLCS_LEVEL3_CODE">
+	<code key="A" desc="Alpine"/>
+	<code key="W" desc="Wetland"/>
+	<code key="U" desc="Upland"/>
+</table>
+<table name="DATA_SOURCE_HEIGHT_CODE">
+	<code key="3" desc="Phase 1 photo sample (pre-1990)"/>
+	<code key="7" desc="Silviculture Survey"/>
+	<code key="18" desc="Vegetation air call"/>
+	<code key="2" desc="Aircall, Low Level Observation"/>
+	<code key="20" desc="Volume and depletion sample"/>
+	<code key="0" desc="Photo-interpretation"/>
+	<code key="17" desc="Vegetation ground call"/>
+	<code key="14" desc="Ground call, 2 or more points"/>
+	<code key="1" desc="Aircall, High Level Observation"/>
+	<code key="6" desc="Phase 2 or Phase 3 sample (pre-1990)"/>
+	<code key="10" desc="Valuation cruise plot(s)"/>
+	<code key="5" desc="Standard fixed radius sample (pre-1979)"/>
+	<code key="16" desc="Vegetation sample"/>
+	<code key="13" desc="Managed stand sample"/>
+	<code key="22" desc="Photogrammetrically captured information"/>
+	<code key="9" desc="Research plots (e.g. Sx trials, ecological site description)"/>
+	<code key="11" desc="(RESULTS) record from a silv. information system that summarizes the stand structure following an activity or treatment."/>
+	<code key="4" desc="Inventory Ground Call"/>
+	<code key="19" desc="Natural growth sample"/>
+	<code key="8" desc="Ground Observation"/>
+	<code key="12" desc="Disturbance which is classified as NSR. No additional information other than type and year of distrubance."/>
+	<code key="25" desc="Pandemic/Catastrophic Event Adjustment (i.e. MPB, Spruce Budworm, etc.)"/>
+	<code key="26" desc="Fire Adjustment"/>
+	<code key="27" desc="Other Model Adjustments (i.e Basal Area)"/>
+	<code key="30" desc="LiDAR Model (i.e. derived) Values are calculated from the LiDar/ground model"/>
+	<code key="31" desc="LiDAR Canopy (calculated) Values are directly measured from LiDAR canopy data"/>
+	<code key="40" desc="LVI derived, values are calculated from the LVI models"/>
+	<code key="41" desc="LVI measured, values are from photo interpretation and/or measured directly from photo"/>
+	<code key="50" desc="Medium Resolution interpreted satalite imagery (greater than 10 m resolution)"/>
+	<code key="51" desc="High Resolution interpreted satelite imagery (less than 1o m Resolution)"/>
+	<code key="60" desc="Low Level, high res digital imagery interpreted(ie Digital Camera System, DCS) values from High res photo interpretation"/>
+	<code key="61" desc="Low Level, high res digital imagery measured(ie Digital Camera System, DCS) meas. directly from high res photography"/>
+</table>
+<table name="DISTURBANCE_CODE">
+	<code key="DI" desc="Disturbance"/>
+</table>
+<table name="NON_FOREST_DESCRIPTOR_CODE">
+	<code key="NC" desc="Non Commercial"/>
+	<code key="NP" desc="Non-productive"/>
+	<code key="NCBR" desc="Non Commercial Brush"/>
+	<code key="NTA" desc="No Typing Available"/>
+	<code key="NSR" desc="Not Sufficiently Restocked"/>
+</table>
+<table name="FREE_TO_GROW_IND">
+	<code key="Y" desc="Yes"/>
+	<code key="N" desc="No"/>
+</table>
+</codeList>
